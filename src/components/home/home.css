@@ -1,0 +1,18 @@
+.home-container{
+    position: relative;
+    background-image: url("/src/images/home-background.png") ;
+    padding: 0 calc(3.5vw + 5px);
+    left: 0;
+    top: 70px;
+    min-height: calc(100vh - 250px);
+    overflow-x: hidden;
+    display: block;
+}
+.home-container::after{
+    
+    content: "";
+    position: absolute;
+    inset: 0px;
+    opacity: 1;
+    z-index: -1;
+}
