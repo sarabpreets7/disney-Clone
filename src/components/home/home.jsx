@@ -8,13 +8,21 @@ import { database as db } from '../../firebase'
 import { connect } from 'react-redux'
 import * as movieActions from "../../redux/actions/movieActions"
 import { useState } from 'react'
+import Original from "../originals/original"
+import New from "../new/new"
+import { useHistory } from 'react-router'
+
 function Home(props){
 
     let recommends = []
     let newDisneys = []
     let originals = []
     let trending = []
+    let history = useHistory()
 
+    if(props.auth.isEmpty==true){
+        history.push("/")
+    }
     useEffect(async()=>{
 
         
@@ -50,6 +58,9 @@ function Home(props){
            <Viewers></Viewers>
            <Recommended ></Recommended>
            <Trending ></Trending>
+           <Original></Original>
+           <New></New>
+
 
         </div>
     )
@@ -58,6 +69,7 @@ function Home(props){
 
 const mapStateToProps=(state)=>{
     return{
+        auth:state.firebase.auth,
       recommend : state.movies.recommends,
       newDisney : state.movies.newDisney,
       original : state.movies.original,

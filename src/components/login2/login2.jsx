@@ -8,7 +8,9 @@ function Login2(props){
     const[email,setemail] = useState("")
     const [pass,setpass] = useState("")
 
-
+    if(props.auth && props?.auth?.isEmpty==false){
+      history.push("/home")
+  }
     const handleEmail=(e)=>{
         setemail(e.target.value)
         

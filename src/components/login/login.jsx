@@ -17,6 +17,10 @@ function Login(props){
     const [pass,setpass] = useState("")
     const [file,setFile] = useState(null)
 
+    if(props.auth && props?.auth?.isEmpty==false){
+        history.push("/home")
+    }
+    console.log(props.auth.isEmpty)
     const handleName=(e)=>{
         setname(e.target.value)
         console.log(name)
