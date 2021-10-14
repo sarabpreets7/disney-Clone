@@ -3,6 +3,13 @@
         "ErrorMessage":"",
         "loading":false
         
+    },
+    "movies":{
+        "recommends": [],
+        "newDisneys": [],
+        "originals": [],
+        "trending": []
     }
+    
     
 }

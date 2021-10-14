@@ -17,6 +17,7 @@ const firestore = firebase.firestore()
 const storage = firebase.storage();
 export const database  ={
     users: firestore.collection('users'),
+    movies: firestore.collection('movies'),
     createdAt: firestore.FieldValue
 }
 export { auth, storage };
