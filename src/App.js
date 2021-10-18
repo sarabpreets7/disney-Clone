@@ -13,7 +13,9 @@ function App() {
     <div className="App">
       <Router>
         <Navbar/>
+
         <Switch>
+          
           <Route exact path="/"><Login/></Route>
           <Route exact path="/home"><Home/></Route>
           <PrivateRoute exact path="/home" component={Home}></PrivateRoute>
@@ -21,9 +23,11 @@ function App() {
           <Route path="/detail/:id">
             <Detail />
           </Route>
+
         </Switch>
       </Router>
     </div>
+
   );
 }
 // function ProtectedRoute(props) {
