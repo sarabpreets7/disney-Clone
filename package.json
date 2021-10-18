@@ -2,7 +2,7 @@
   "name": "disney-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sarabpreets7.github.io/disney-clone",
+  "homepage": "http://github.com/sarabpreets7/sarabpreets7.github.io/disney-",
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
@@ -24,6 +24,7 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-firestore": "^0.15.0",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -32,7 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

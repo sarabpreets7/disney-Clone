@@ -6,7 +6,7 @@ import Navbar from './components/navbar/navbar';
 import Home from './components/home/home';
 import Login2 from "./components/login2/login2"
 import PrivateRoute from './components/PrivateRoute';
-
+import Detail from "./components/Detail"
 
 function App() {
   return (
@@ -18,6 +18,9 @@ function App() {
           <Route exact path="/home"><Home/></Route>
           <PrivateRoute exact path="/home" component={Home}></PrivateRoute>
           <Route exact path="/login"><Login2/></Route>
+          <Route path="/detail/:id">
+            <Detail />
+          </Route>
         </Switch>
       </Router>
     </div>

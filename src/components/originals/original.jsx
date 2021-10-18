@@ -2,6 +2,7 @@ import './original.css'
 import img1 from '../../images/viewers-pixar.png'
 import { useEffect, useState } from 'react'
 import { connect } from 'react-redux'
+import { Link } from "react-router-dom";
 
 function Original(props){
     let movies ;
@@ -20,7 +21,9 @@ function Original(props){
                 {props.originals && props.originals.map(function(movie){
                     return(
                         <div className="wrap-recc">
-                            <img src={movie.cardImg}></img>
+                            <Link to={`/detail/` + movie.id}>
+                                <img src={movie.cardImg}></img>
+                            </Link>
                         </div>
                     )
                 })}

@@ -3,6 +3,8 @@ import img1 from '../../images/viewers-pixar.png'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { connect } from 'react-redux'
+import { Link } from "react-router-dom";
+
 function Trending(props){
 
     
@@ -20,7 +22,9 @@ function Trending(props){
             {props.trending && props.trending.map(function(movie){
                     return(
                         <div className="wrap-recc">
-                            <img src={movie.cardImg}></img>
+                            <Link to={`/detail/` + movie.id}>
+                                <img src={movie.cardImg}></img>
+                            </Link>
                         </div>
                     )
                 })}

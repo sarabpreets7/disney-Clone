@@ -85,9 +85,9 @@ function Navbar(props){
                             LOGOUT
                         </button>
 
-                        <span className="login">
+                        {/* <span className="login">
                             <img src={img}></img>
-                        </span>
+                        </span> */}
                     </div>
 
                 </div>
