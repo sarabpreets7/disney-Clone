@@ -17,14 +17,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import thunk from 'redux-thunk'
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAmfqzKCtjaZ7ZWGHpqQeKD7iYS7VWSZT4",
-  authDomain: "disney-clone-16a3d.firebaseapp.com",
-  projectId: "disney-clone-16a3d",
-  storageBucket: "disney-clone-16a3d.appspot.com",
-  messagingSenderId: "369606203144",
-  appId: "1:369606203144:web:98b8caf30b3d699f30febd"
-};
+
 
 // firebase.initializeApp(firebaseConfig);
 firebase.firestore()
