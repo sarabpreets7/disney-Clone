@@ -20,6 +20,6 @@ export const database  ={
     movies: firestore.collection('movies'),
     createdAt: firestore.FieldValue
 }
-export { auth, storage };
+export { auth, storage ,firebaseConfig};
 
 export default firebase;

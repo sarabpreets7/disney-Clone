@@ -14,7 +14,7 @@ import rootReducer from '../src/redux/reducers/rootReducer';
 import { composeWithDevTools} from 'redux-devtools-extension';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom'; 
-
+import { firebaseConfig } from './firebase';
 import thunk from 'redux-thunk'
 
 
