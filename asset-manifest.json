@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sarabpreets7.github.io/disney-Clone/static/css/main.f9392b8c.chunk.css",
-    "main.js": "/sarabpreets7.github.io/disney-Clone/static/js/main.9e76a4cc.chunk.js",
-    "main.js.map": "/sarabpreets7.github.io/disney-Clone/static/js/main.9e76a4cc.chunk.js.map",
+    "main.css": "/sarabpreets7.github.io/disney-Clone/static/css/main.51e90cf1.chunk.css",
+    "main.js": "/sarabpreets7.github.io/disney-Clone/static/js/main.ca81046a.chunk.js",
+    "main.js.map": "/sarabpreets7.github.io/disney-Clone/static/js/main.ca81046a.chunk.js.map",
     "runtime-main.js": "/sarabpreets7.github.io/disney-Clone/static/js/runtime-main.233d8568.js",
     "runtime-main.js.map": "/sarabpreets7.github.io/disney-Clone/static/js/runtime-main.233d8568.js.map",
     "static/css/2.d3af3a66.chunk.css": "/sarabpreets7.github.io/disney-Clone/static/css/2.d3af3a66.chunk.css",
-    "static/js/2.817a17ff.chunk.js": "/sarabpreets7.github.io/disney-Clone/static/js/2.817a17ff.chunk.js",
-    "static/js/2.817a17ff.chunk.js.map": "/sarabpreets7.github.io/disney-Clone/static/js/2.817a17ff.chunk.js.map",
+    "static/js/2.8cccc6e3.chunk.js": "/sarabpreets7.github.io/disney-Clone/static/js/2.8cccc6e3.chunk.js",
+    "static/js/2.8cccc6e3.chunk.js.map": "/sarabpreets7.github.io/disney-Clone/static/js/2.8cccc6e3.chunk.js.map",
     "static/js/3.85365e89.chunk.js": "/sarabpreets7.github.io/disney-Clone/static/js/3.85365e89.chunk.js",
     "static/js/3.85365e89.chunk.js.map": "/sarabpreets7.github.io/disney-Clone/static/js/3.85365e89.chunk.js.map",
     "index.html": "/sarabpreets7.github.io/disney-Clone/index.html",
     "static/css/2.d3af3a66.chunk.css.map": "/sarabpreets7.github.io/disney-Clone/static/css/2.d3af3a66.chunk.css.map",
-    "static/css/main.f9392b8c.chunk.css.map": "/sarabpreets7.github.io/disney-Clone/static/css/main.f9392b8c.chunk.css.map",
-    "static/js/2.817a17ff.chunk.js.LICENSE.txt": "/sarabpreets7.github.io/disney-Clone/static/js/2.817a17ff.chunk.js.LICENSE.txt",
+    "static/css/main.51e90cf1.chunk.css.map": "/sarabpreets7.github.io/disney-Clone/static/css/main.51e90cf1.chunk.css.map",
+    "static/js/2.8cccc6e3.chunk.js.LICENSE.txt": "/sarabpreets7.github.io/disney-Clone/static/js/2.8cccc6e3.chunk.js.LICENSE.txt",
     "static/media/1564674844-disney.76f717a3.mp4": "/sarabpreets7.github.io/disney-Clone/static/media/1564674844-disney.76f717a3.mp4",
     "static/media/1564676115-marvel.25a822f5.mp4": "/sarabpreets7.github.io/disney-Clone/static/media/1564676115-marvel.25a822f5.mp4",
     "static/media/1564676296-national-geographic.bf1b675d.mp4": "/sarabpreets7.github.io/disney-Clone/static/media/1564676296-national-geographic.bf1b675d.mp4",
@@ -43,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.233d8568.js",
     "static/css/2.d3af3a66.chunk.css",
-    "static/js/2.817a17ff.chunk.js",
-    "static/css/main.f9392b8c.chunk.css",
-    "static/js/main.9e76a4cc.chunk.js"
+    "static/js/2.8cccc6e3.chunk.js",
+    "static/css/main.51e90cf1.chunk.css",
+    "static/js/main.ca81046a.chunk.js"
   ]
 }
